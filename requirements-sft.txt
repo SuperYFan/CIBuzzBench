@@ -1,0 +1,10 @@
+# Install an appropriate torch build for your CUDA version before installing
+# these packages. For example, see https://pytorch.org/get-started/locally/.
+transformers>=4.51.0
+accelerate>=0.33.0
+datasets>=2.20.0
+peft>=0.12.0
+bitsandbytes>=0.43.0
+pandas>=2.0
+sentencepiece
+protobuf
